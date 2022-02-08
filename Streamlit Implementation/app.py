@@ -53,8 +53,8 @@ def main():
     activiteis = ["Home", "Webcam Face Detection", "About"]
     choice = st.sidebar.selectbox("Select Activity", activiteis)
     st.sidebar.markdown(
-        """ Developed by Yogesh. 
-        [Yogesh LinkedIn] (https://www.linkedin.com/in/yogesh-k-35672518a)   
+         """ Developed by Yogesh. 
+        [Yogesh LinkedIn] (https://www.linkedin.com/in/yogesh-k-35672518a)""")   
     if choice == "Home":
         html_temp_home1 = """<div style="background-color:#6D7B8D;padding:10px">
                                             <h4 style="color:white;text-align:center;">
