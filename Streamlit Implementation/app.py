@@ -53,9 +53,8 @@ def main():
     activiteis = ["Home", "Webcam Face Detection", "About"]
     choice = st.sidebar.selectbox("Select Activity", activiteis)
     st.sidebar.markdown(
-        """ Developed by Saurabh Daund and Mouleena Jaiswal. 
-        [Saurabh Daund LinkedIn] (https://www.linkedin.com/in/saurabh-daund-a3558a213)   
-        [Mouleena Jaiswal LinkedIn] (https://www.linkedin.com/in/mouleena-jaiswal-822bb01b1)""")
+        """ Developed by Yogesh. 
+        [Yogesh LinkedIn] (https://www.linkedin.com/in/yogesh-k-35672518a)   
     if choice == "Home":
         html_temp_home1 = """<div style="background-color:#6D7B8D;padding:10px">
                                             <h4 style="color:white;text-align:center;">
